@@ -1,0 +1,317 @@
+html, html a {
+    -webkit-font-smoothing: antialiased !important;
+}
+
+
+p, h4, ul, ol {
+font: 16px/27px 'Gentium Basic', serif;
+}
+
+p {
+	font-size: 17px;
+}
+
+
+
+h1, h2, h3, h4, a{
+	font-family: 'Oswald', sans-serif;
+		text-transform: uppercase;
+}
+
+.fa{
+	font-size: 26px!important;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.btn a{
+		font-family: 'Oswald', sans-serif;
+		text-transform: uppercase;
+}
+
+.navbar-default {
+	background-color: #00599e;
+	border-bottom: 3px solid #000;
+	height: 87px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	color: #11ced3!important;
+	background-color: transparent!important;
+}
+
+.carousel-caption {
+position: absolute;
+right: 15%;
+bottom: 20px;
+left: 15%;
+z-index: 10;
+padding-top: 40px;
+padding-bottom: 20px;
+color: #fff;
+}
+
+.carousel-caption p {
+font-size: 18px!important;
+text-shadow: none!important;
+width: 70%!important;
+}
+
+.carousel-indicators {
+	bottom: 100px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #dce1e2!important;
+	font-size: 15px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #11ced3!important;
+}
+
+.navbar-nav {
+	margin-left: 0px;
+	margin-top: 15px;
+}
+
+.navbar-brand {
+float: left;
+height: 50px;
+padding: 0px 15px;
+font-size: 18px;
+line-height: 20px;
+margin-top: -6px;
+}
+
+.home-form{
+	position:absolute; z-index:999; top:60px; padding: 42px 26px 20px 20px; right:0; width: 350px;
+}
+
+
+.btn-primary {
+color: #fff;
+background-color: #00599e;
+border: #00599e;
+}
+
+
+.btn {
+padding: 10px 30px;
+border-radius: 25px;
+}
+
+.btn-info {
+color: #fff;
+background-color: #11ced3!important;
+border-color: #46b8da;
+padding: 15px 0;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+.btn-info:hover{
+	background-color: #0db2b2!important;
+}
+
+.btn-outline {
+color: #fff;
+background-color: transparent;
+border-color: #ccc;
+}
+
+
+.btn-outline:hover{
+	background: #ccc
+}
+
+input, button, select, textarea {
+font-family: inherit;
+font-size: inherit;
+line-height: inherit;
+width: 100%;
+margin-bottom: 20px;
+padding: 8px 10px;
+opacity: 0.8;
+}
+
+.black-layout{
+	height: 578px;
+width: 370px;
+background: #000;
+opacity: 0.4;
+position: inherit;
+left: -10px;
+z-index: -1;
+top: 21px;
+}
+
+.contact-backg{
+		height: 300px;
+	background: url(../images/garage-doors-slide10.jpg)no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+	padding: 90px 0 0;
+}
+
+.page-header h1, .page-header p{
+	color: #fff;
+}
+
+.page-header p{
+	font-size: 22px;
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.services-backg{
+	height: 300px;
+	background: url(../images/garage-doors-slide12.jpg)no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+	padding: 90px 0 0;
+
+}
+
+.specials-backg{
+	height: 300px;
+	background: url(../images/garage-doors-slide6.jpg)no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 90px 0 0;
+
+}
+
+.about-backg{
+	height: 300px;
+	background: url(../images/miami-beach.jpg)no-repeat;
+	background-size: cover;
+	background-position: top center;
+	padding: 90px 0 0;
+}
+
+.section-header{
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.custom-section{
+	height: 600px;
+	margin: 80px 0;
+	padding-top: 30px;
+	background: #000 url(../images/custom-installations.jpg)no-repeat;
+	background-size: contain;
+	background-position: bottom center;
+}
+
+
+
+@media (min-width: 0px) and (max-width: 767px) {
+
+.navbar-brand img{
+	width: 150px;
+	top: -20px;
+}
+
+.navbar-toggle {
+position: absolute;
+width: 44px;
+float: right;
+right: 0;
+z-index: 999;
+}
+
+.navbar-default{
+	height: 55px;
+}
+
+.navbar-collapse{
+background: #00599e;
+width: 100%;
+float: right;
+border: none;
+position: absolute;
+top: 0px;
+padding-top: 27px;
+max-height: 418px!important;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background: #ccc;
+}
+
+.home-form{
+	width: 315px;
+	padding: 68px 26px 20px 20px;
+}
+
+.black-layout{
+	width: 325px;
+	top: -7px;
+	height: 709px
+}
+
+.carousel{
+	height: 800px!important;
+}
+
+.carousel .item{
+	height: 800px!important;
+}
+
+.carousel-inner > .item > img{
+	height: 800px!important;
+}
+
+.carousel-caption{
+	display: none;
+}
+
+.services-backg, .approvals-backg{
+	height: 370px;
+}
+
+.marketing h3{
+	text-align: center;
+}
+
+.btn{
+	margin-bottom: 50px;
+}
+
+.carousel-indicators{
+	display: none;
+}
+
+footer .pull-right{
+	display: none;
+}
+
+.featurette-divider {
+  margin: 20px 0!important;
+}
+
+p {
+	margin-top: 25px;
+}
+
+.btn{
+	display: block;
+}
+
+.custom-section{
+	height: 400px;
+	margin: 80px 0;
+	padding-top: 30px;
+	background: #000 url(../images/custom-installations.jpg)no-repeat;
+	background-size: contain;
+	background-position: bottom center;
+}
+
+
+	}
+
